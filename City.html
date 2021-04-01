@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City</title>
+    <style>
+        body {
+            overflow: hidden;
+            margin: 0px;
+            background:black;
+        }
+        #front{
+            width: 100vw;
+            height: 100vh;
+            margin: 0px;
+            position: absolute;
+            background: url('pexels-chait-goli-1797195.jpg');
+            background-size: 1280px 720px;
+            background-repeat: repeat;
+            background-position: 0 0;
+            animation: identifier 15s infinite linear;
+            left: 0px;
+            top: 0px;
+        }
+        @keyframes identifier {
+            0%{background-position: 0 0;}
+            100%{background-position: 1280px 0;}
+        }
+    </style>
+</head>
+<body>
+    <div id="front"></div>
+</body>
+</html>
